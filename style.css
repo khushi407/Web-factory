@@ -1,0 +1,383 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(224,79,143);
+    background: radial-gradient(circle, rgba(224,79,143,1) 0%, rgba(65,124,194,0.9360994397759104) 100%);
+}
+.container{
+    height: 90vh;
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.973);
+    border-radius: 15px ;
+}
+.navbar{
+    height: 115px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 5px gray;
+}
+.nav1{
+    height: 25px;
+    width: 100%;
+    border-bottom: 1px solid rgb(190, 186, 186);
+    display: flex;
+    padding-left: 10px;
+}
+.box1{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: red;
+    margin-inline: 3px;
+    margin-block: 3px;
+}
+.box2{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: rgb(255, 191, 0);
+    margin-inline: 3px;
+    margin-block: 3px;
+}
+.box3{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: rgb(12, 199, 90);
+    margin-inline: 3px;
+    margin-block: 3px;
+}
+.nav2{
+    height: 50px;
+    width: 80%;
+    border-bottom: 1px solid rgb(190, 186, 186);
+    display: flex;
+}
+.nav2 .left{
+    height: 50px;
+    width: 40%;
+}
+.nav2 img{
+    height:45px ;
+}
+.right{
+    height: 50px;
+    width: 60%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    word-spacing: 10px;
+}
+
+.right button{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(77, 77, 202);
+    border: 1px solid rgb(77, 77, 202);
+    border-radius: 5px;
+}
+.right button:hover{
+    background-color: rgb(98, 98, 216);
+    color: white;
+}
+
+.right ul a{
+    text-decoration: none;
+}
+.nav3{
+    height: 40px;
+    width: 80%;
+    /* border-bottom: 1px solid rgb(190, 186, 186); */
+    display: flex;
+}
+.lft{
+    height: 40px;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(203, 218, 251);
+    /* color: white; */
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.rght{
+    height: 40px;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle{
+    height: 40px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.middle ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.middle ul a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+.content{
+    height: 73.5vh;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    background-color: rgba(193, 196, 239, 0.642);
+    border-radius: 0px 0px 15px 15px;
+}
+.text{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    line-height: 1.2;
+    gap: 20px;
+    padding-inline: 35px;
+
+}
+
+.text h1{
+    font-size: 45px;
+}
+
+.text p{
+    font-size: 20px;
+    flex-wrap: wrap;
+    line-height: 1.2;
+}
+.text button{
+    height: 35px;
+    width: 120px;
+    background-color: rgb(77, 77, 202);
+    color: rgb(245, 245, 255);
+    border: none;
+    border-radius: 5px;
+}
+.text button:hover{
+    background-color:rgb(137, 137, 221) ;
+}
+.text img{
+    height: 105px;
+    width: 105px;
+    position: relative;
+    bottom: 55px;
+    left: 145px;
+}
+
+.image{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    /* border: 2px solid gray; */
+}
+.image img{
+    height: 70%;
+}
+.icon2{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color:rgb(77, 77, 202);
+    font-size: 25px;
+    border: 2px solid rgb(77, 77, 202);
+    position: relative;
+    left: 300px;
+    top: 15px;
+
+}
+@media (max-width: 768px) {
+
+    .main-container{
+            height: 100vh;
+            width: 100%;
+    }
+    .container{
+        height: 90vh;
+        width: 90%;
+    }
+    .navbar{
+        height: 115px;
+        width: 100%;
+    }
+    .nav1{
+        height: 25px;
+        width: 100%;;
+    }
+    .box1{
+        height: 15px;
+        width: 15px;
+    }
+    .box2{
+        height: 15px;
+        width: 15px;
+    }
+    .box3{
+        height: 15px;
+        width: 15px;
+    }
+    .nav2{
+        height: 50px;
+        width: 80%;
+    }
+    .nav2 .left{
+        height: 50px;
+        width: 30%;
+    }
+    .nav2 img{
+        height:40px ;
+        width: 70%;
+    }
+    .right{
+        height: 50px;
+        width: 70%;
+    }
+    .nav3{
+        height: 40px;
+        width: 80%;
+    }
+    .lft{
+        height: 40px;
+        width: 10%;
+    }
+    
+    .middle{
+        height: 40px;
+        width: 80%;
+    }
+    .middle ul{
+        gap: 10px;
+    }
+    .content{
+        height: 71.2vh;
+        width: 100%;
+    }
+    .text{
+        height: 100%;
+        width: 50%;
+        line-height: 1.2;
+        gap: 10px;
+        padding-inline: 25px;
+    
+    }
+    
+    .text h1{
+        font-size: 35px;
+    }
+    
+    .text p{
+        font-size: 15px;
+        flex-wrap: wrap;
+        line-height: 1.2;
+    }
+    
+    .image{
+        height: 100%;
+        width: 50%;
+    }
+    .icon2{
+        height: 40px;
+        width: 40px;
+        position: relative;
+        left: 220px;
+        top: 20px;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
